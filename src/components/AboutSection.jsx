@@ -1,4 +1,4 @@
-import { Code, User, Briefcase } from "lucide-react";
+import { BrainCircuit, Database, CodeXml } from "lucide-react";
 
 export const AboutSection= () => {
     return (
@@ -27,8 +27,9 @@ export const AboutSection= () => {
                                     Get in touch
                                 </a>
 
-                                <a href="" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
-                                        Download CV
+                                <a href="https://drive.google.com/file/d/16go3YTXmguPpd2oCbIJBljNwv6gL2ouY/view?usp=drive_link" target="_blank" 
+                                rel="noopener noreferrer" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+                                Download Resume
                                 </a>
                         </div>
                     </div>
@@ -37,11 +38,11 @@ export const AboutSection= () => {
                     <div className="gradient-border p-6 card-hover">
                         <div className="flex items-start gap-4">
                             <div className="p-3 rounded-full bg-primary/10">
-                            <Code className="w-6 h-6 text-primary" />
+                            <CodeXml className="w-6 h-6 text-primary" />
                             </div>
                             <div className="text-left ">
                                 <h4 className="font-semibold text-lg">Web Developer</h4>
-                                <p className="text-muted-foreground">I'm a web developer with a passion for creating beautiful,
+                                <p className="text-muted-foreground">I'm a full stack web developer skilled in creating beautiful,
                                     responsive and functional websites with modern frameworks and technologies.</p>
                             </div>
                         </div>
@@ -49,23 +50,22 @@ export const AboutSection= () => {
                     <div className="gradient-border p-6 card-hover">
                     <div className="flex items-start gap-4">
                             <div className="p-3 rounded-full bg-primary/10">
-                            <User className="w-6 h-6 text-primary" />
+                            <Database className="w-6 h-6 text-primary" />
                             </div>
                             <div className="text-left ">
-                                <h4 className="font-semibold text-lg">UI/UX Designer</h4>
-                                <p className="text-muted-foreground">I'm a UI/UX designer with a passion for designing intuitive
-                                    and seamless user experiences.</p>
+                                <h4 className="font-semibold text-lg">Backend Engineer</h4>
+                                <p className="text-muted-foreground">I design and implement scalable backend systems and RESTful APIs that enable seamless integration and high availability. </p>
                             </div>
                         </div>
                     </div>
                     <div className="gradient-border p-6 card-hover">
                     <div className="flex items-start gap-4">
                             <div className="p-3 rounded-full bg-primary/10">
-                            <Briefcase className="w-6 h-6 text-primary" />
+                            <BrainCircuit className="w-6 h-6 text-primary" />
                             </div>
                             <div className="text-left ">
-                                <h4 className="font-semibold text-lg">Project Managment</h4>
-                                <p className="text-muted-foreground">I'm a project manager with a passion for leading projects to completion.</p>
+                                <h4 className="font-semibold text-lg">Machine Learning Practitioner</h4>
+                                <p className="text-muted-foreground">I'm actively building skills in machine learning, focusing on algorithms, model building, and applying AI concepts to practical problems.</p>
                             </div>
                         </div>
                     </div>

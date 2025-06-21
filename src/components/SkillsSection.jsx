@@ -6,40 +6,39 @@ const skills = [
     // Frontend
     {name: "HTML/CSS", level: 95, category: "Frontend" },
     {name: "JavaScript ES6+", level: 90, category: "Frontend" },
-    {name: "TypeScript", level: 85, category: "Frontend" },
-    {name: "React.js", level: 85, category: "Frontend" },
-    {name: "Angular.js", level: 85, category: "Frontend" },
-    {name: "React Router v6+", level: 88, category: "Frontend" },
-    {name: "Axios", level: 83, category: "Frontend" },
-    {name: "Tailwind CSS", level: 87, category: "Frontend" },
+    {name: "React.js", level: 90, category: "Frontend" },
+    {name: "Angular.js", level: 70, category: "Frontend" },
+    {name: "TypeScript", level: 80, category: "Frontend" },
+    {name: "Tailwind CSS", level: 60, category: "Frontend" },
 
     // Backend
-    {name: "Python", level: 98, category: "Backend" },
-    {name: "FastAPI", level: 92, category: "Backend" },
-    {name: "Node.js", level: 85, category: "Backend" },
-    {name: "Express.js", level: 82, category: "Backend" },
+    {name: "Python", level: 90, category: "Backend" },
+    {name: "FastAPI", level: 90, category: "Backend" },
+    {name: "Node.js", level: 70, category: "Backend" },
+    {name: "Express.js", level: 70, category: "Backend" },
 
     // Tools & Platforms
     {name: "Git", level: 90, category: "Tools" },
     {name: "GitHub", level: 90, category: "Tools" },
-    {name: "Postman", level: 86, category: "Tools" },
-    {name: "Netlify", level: 84, category: "Tools" },
-    {name: "Google Colab", level: 89, category: "Tools" },
-    {name: "Figma", level: 95, category: "Tools" },
+    {name: "Postman", level: 80, category: "Tools" },
+    {name: "Netlify", level: 70, category: "Tools" },
+    {name: "Vercel", level: 80, category: "Tools" },
+    {name: "Google Colab", level: 80, category: "Tools" },
+    {name: "Figma", level: 90, category: "Tools" },
 
     // Database
-    {name: "SQL Basics", level: 85, category: "Database" },
-    {name: "SQLite", level: 82, category: "Database" },
-    {name: "MongoDB", level: 80, category: "Database" },
+    {name: "SQL Basics", level: 80, category: "Database" },
+    {name: "PostgreSQL", level: 80, category: "Database" },
+    {name: "MongoDB", level: 70, category: "Database" },
 
     // Machine Learning / AI
-    {name: "Pandas", level: 90, category: "Machine Learning / AI" },
-    {name: "NumPy", level: 88, category: "Machine Learning / AI" },
-    {name: "Matplotlib", level: 87, category: "Machine Learning / AI" },
-    {name: "scikit-learn", level: 85, category: "Machine Learning / AI" },
-    {name: "Data Preprocessing", level: 89, category: "Machine Learning / AI" },
-    {name: "Model Evaluation", level: 84, category: "Machine Learning / AI" },
-    {name: "Google Colab" , level: 89, category: "Machine Learning / AI" }
+    {name: "Pandas", level: 70, category: "Machine Learning / AI" },
+    {name: "NumPy", level: 70, category: "Machine Learning / AI" },
+    {name: "Matplotlib", level: 60, category: "Machine Learning / AI" },
+    {name: "scikit-learn", level: 80, category: "Machine Learning / AI" },
+    {name: "Data Preprocessing", level: 80, category: "Machine Learning / AI" },
+    {name: "Model Evaluation", level: 90, category: "Machine Learning / AI" },
+    {name: "Google Colab" , level: 80, category: "Machine Learning / AI" }
 
 ]
 
