@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
-// id, size, x, y, opacity, animationDuration
-// id, size, x, y, delay, 
+// stars: id, size, x, y, opacity, animationDuration
+// meteors: id, size, x, y, delay, animationDuration
 
 
 export const StarBackground = () => {
