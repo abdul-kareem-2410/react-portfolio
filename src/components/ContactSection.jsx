@@ -85,16 +85,16 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4">Connect with me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="https://www.linkedin.com/in/ab-kareem-baa986303/" target="_blank">
+                <a className="text-muted-foreground hover:text-primary transition-colors duration-300" href="https://www.linkedin.com/in/ab-kareem-baa986303/" target="_blank">
                   <Linkedin />
                 </a>
-                <a href="https://x.com/dashingindec" target="_blank">
+                <a className="text-muted-foreground hover:text-primary transition-colors duration-300" href="https://x.com/dashingindec" target="_blank">
                   <Twitter />
                 </a>
-                <a href="https://www.instagram.com/sherrysviddiary/" target="_blank">
+                <a className="text-muted-foreground hover:text-primary transition-colors duration-300" href="https://www.instagram.com/sherrysviddiary/" target="_blank">
                   <Instagram />
                 </a>
-                <a href="https://www.youtube.com/@sherrysviddiary" target="_blank">
+                <a className="text-muted-foreground hover:text-primary transition-colors duration-300" href="https://www.youtube.com/@sherrysviddiary" target="_blank">
                   <Youtube />
                 </a>
               </div>

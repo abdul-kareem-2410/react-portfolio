@@ -3,35 +3,38 @@ import { ExternalLink, Github, ArrowRight } from "lucide-react";
 const projects = [
     {
         id: 1,
+        title: "Expense Tracker",
+        description: "A smart, responsive expense tracker built with Next.js and React. "
+            + "Features AI-powered automatic category suggestions, "
+            + "confidence scoring and financial insights. ",
+        image: "/projects/project1.png",
+        tags: ["Next.js", "React.js", "Tailwind CSS", "Zod", "JavaScript ES6+"],
+        demoUrl: "https://ai-expense-tracker-nl6yd5w67-abdul-kareems-projects-d5ae4488.vercel.app/",
+        githubUrl: "https://github.com/abdul-kareem-2410/ai-expense-tracker/",
+    },
+    
+    {
+        id: 2,
+        title: "Task Manager",
+        description: "A comprehensive task management system built with Next.js and React. "
+            + "Features advanced task organization with priorities, tags, due dates and statuses. ",
+        image: "/projects/project2.png",
+        tags: ["Next.js", "React.js", "Tailwind CSS", "Zod", "JavaScript ES6+"],
+        demoUrl: "https://task-manager-6utxe5w95-abdul-kareems-projects-d5ae4488.vercel.app/",
+        githubUrl: "https://github.com/abdul-kareem-2410/task-manager/",
+    },
+
+    
+    {
+        id: 3,
         title: "Tic Tac Toe",
         description: "A classic 3x3 tic-tac-toe board"
         + "showcasing the component-based architecture, "
         + "state management and dynamic UI updates.",
-        image: "/projects/project1.png",
-        tags: ["React.js", "JavaScript ES6+"],
-        demoUrl: "#",
-        githubUrl: "#",
-    },
-    {
-        id: 2,
-        title: "Login / Signup Form",
-        description: "A responsive authentication form built with React and Zod,"
-        + " implementing form validation and"
-        + " controlled inputs.",
-        image: "/projects/project2.png",
-        tags: ["React.js", "Zod", "JavaScript ES6+"],
-        demoUrl: "#",
-        githubUrl: "#",
-    },
-    {
-        id: 3,
-        title: "Employee Directory",
-        description: "A frontend-only employee management system built with React,"
-        + " integrating Axios for data fetching and simulating CRUD operations. ",
         image: "/projects/project3.png",
-        tags: ["React.js", "JavaScript ES6+", "Axios",],
-        demoUrl: "#",
-        githubUrl: "#",
+        tags: ["React.js", "JavaScript ES6+", "Tailwind CSS"],
+        demoUrl: "https://tic-tac-toe-rho-two-18.vercel.app/",
+        githubUrl: "https://github.com/abdul-kareem-2410/tic-tac-toe/",
     },
     
 ]
@@ -70,7 +73,7 @@ export const ProjectsSection = () => {
                                     className="text-foreground/80 hover:text-primary transition-colors duration-300">
                                         <ExternalLink size={20} />
                                     </a>
-                                    <a  href={project.githubUrlUrl}
+                                    <a  href={project.githubUrl}
                                     target="_blank"
                                     className="text-foreground/80 hover:text-primary transition-colors duration-300">
                                         <Github size={20} />
