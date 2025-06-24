@@ -28,7 +28,7 @@ const projects = [
     {
         id: 3,
         title: "Tic Tac Toe",
-        description: "A classic 3x3 tic-tac-toe board"
+        description: "A classic 3x3 tic-tac-toe board game built with React.js and Tailwind CSS. "
         + "showcasing the component-based architecture, "
         + "state management and dynamic UI updates.",
         image: "/projects/project3.png",
