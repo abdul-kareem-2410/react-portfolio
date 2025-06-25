@@ -124,7 +124,7 @@ export const SkillsSection = () => {
                       strokeLinecap="round"
                     />
                   </svg>
-                  <div className="absolute inset-0 flex items-center justify-center text-white">
+                  <div className="absolute inset-0 flex items-center justify-center text-secondary">
                     {skillIcons[skill.name] || <span className="text-xs">?</span>}
                   </div>
                 </div>
