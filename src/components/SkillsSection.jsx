@@ -132,6 +132,13 @@ export const SkillsSection = () => {
                   <h3 className="text-sm font-medium">{skill.name}</h3>
                   {/* <p className="text-xs text-muted-foreground">{skill.level}%</p> */}
                 </div>
+                {/* HOVER STATE  // *future implementation (maybe)*
+                {skill.details && (
+                  <div className="hidden group-hover:flex flex-col justify-center items-center text-sm text-muted-foreground bg-secondary/50 rounded p-3 text-center min-h-[100px]">
+                    <p>{skill.details}</p>
+                  </div>
+                )} 
+                */}
               </div>
             );
           })}

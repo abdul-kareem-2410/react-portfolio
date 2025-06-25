@@ -47,10 +47,10 @@ export const StarBackground = () => {
             newMeteors.push({
                 id:i,
                 size:Math.random() * 2 + 1,
-                 x: Math.random() * 100 ,
-                 y: Math.random() * 50,
+                 x: Math.random() * 70,
+                 y: -Math.random() * 20 - 5, // spawn above screen
                  delay: Math.random() * 15,
-                 animationDuration: Math.random() * 3 + 3,
+                 animationDuration: Math.random() * 3 + 6,
             })  
         }
         setMeteors(newMeteors);
@@ -72,7 +72,7 @@ export const StarBackground = () => {
 
             {meteors.map((meteor) => (
                 <div key={meteor.id} className="meteor animate-meteor" style={{
-                    width: meteor.size * 65 + "px" ,
+                    width: meteor.size * 70 + "px" ,
                     height: meteor.size * 2 + "px" ,
                     left: meteor.x + "%" ,
                     top: meteor.y + "%" ,
