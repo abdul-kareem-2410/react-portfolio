@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@import "swiper/css";
+@import "swiper/css/navigation";
 
 @theme {
   --color-border: hsl(var(--border));
@@ -85,7 +87,7 @@
 
     --card: 222 47% 8%;
 
-    --primary: 210 70% 50%;
+    --primary: 210 70% 40%;
     --primary-foreground: 213 31% 91%;
 
     --border: 217 33% 20%;

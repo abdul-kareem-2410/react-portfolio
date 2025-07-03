@@ -59,9 +59,9 @@ const skills = [
   { name: "Google Colab", level: 80, category: "Tools" },
   { name: "Figma", level: 90, category: "Tools" },
 
-  { name: "SQL Basics", level: 80, category: "Database" },
+  { name: "SQL Basics", level: 70, category: "Database" },
   { name: "PostgreSQL", level: 80, category: "Database" },
-  { name: "MongoDB", level: 70, category: "Database" },
+  { name: "MongoDB", level: 60, category: "Database" },
 
   { name: "Pandas", level: 70, category: "Machine Learning / AI" },
   { name: "NumPy", level: 70, category: "Machine Learning / AI" },
@@ -101,7 +101,7 @@ export const SkillsSection = () => {
           ))}
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-6">
           {filteredSkills.map((skill, key) => {
             const radius = 36;
             const circumference = 2 * Math.PI * radius;
@@ -111,6 +111,7 @@ export const SkillsSection = () => {
               <div key={key} className="relative bg-card p-6 rounded-lg shadow-xs card-hover flex flex-col items-center">
                 <div  className="absolute top-4 left-4 text-xs text-muted-foreground">{skill.level}%</div>
                 <div className="relative w-24 h-24">
+
                   <svg className="w-full h-full transform -rotate-90">
                     <circle
                       cx="50%"
@@ -124,6 +125,7 @@ export const SkillsSection = () => {
                       strokeLinecap="round"
                     />
                   </svg>
+                  
                   <div className="absolute inset-0 flex items-center justify-center text-secondary">
                     {skillIcons[skill.name] || <span className="text-xs">?</span>}
                   </div>
